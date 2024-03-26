@@ -1,1 +1,1 @@
-# turing-batch-log
+# turing-batch-log (daily)
