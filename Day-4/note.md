@@ -11,4 +11,11 @@
 
 > Primitives are value and objects are reference.
 
+### Expression
 
+> Expression is definded like that "e.g., a + b = 10 is an expression and it return 10.". Like phrase in pure english.
+
+```js
+let a + b = 10 
+//That would be statement.
+```
