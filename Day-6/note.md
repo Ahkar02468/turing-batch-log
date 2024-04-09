@@ -18,7 +18,7 @@ Associativity
 
 * 1 + 2 + 12 / 6 (step 1)
 * 1 + 2 + 2 (step 2)
-* 3 + 4 (step 3)
-* 7 (final step)
+* 3 + 2 (step 3)
+* 5 (final step)
 
 ## All of the above are called "Order of Evaluation"
