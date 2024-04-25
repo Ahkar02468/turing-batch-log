@@ -17,25 +17,3 @@ console.log("true == '1', true == '1'")
 ```
 
 > string comparison : lexicographical order (means alphabatically)
-
-### Logical AND &&
-
-> *__input/ouput of && sementic wil be anything__* mean not only boolean but also numer or something.
-
-In && logic, if LHS is falsy, return LHS.
-Else if, LHS is truthy, return RHS.
-
-* false && false = false
-* false && true = false
-* true && false = false
-* true && true = true
-
-### Logical OR ||
-
-if LHS is false, return RHS.
-Else if, LHS is true, return LHS.
-
-* false || false = false
-* false || true = true
-* true || false = true
-* true || true = true
