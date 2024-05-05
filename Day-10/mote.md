@@ -9,6 +9,7 @@
 ```
 
 "use strict"
+
 let top = 100;
 >this will not work because top is already taken in window namespace
 
