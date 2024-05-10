@@ -20,6 +20,6 @@
 
 * Traverse every values of an array
 
-## To Learn 
+## To Learn
 
  1. predicate function(return true or false)
