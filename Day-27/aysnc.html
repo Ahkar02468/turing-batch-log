@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     
+</body>
+
+     <script>
+
+          async function getData(){
+               let urls = ['https://jsonplaceholder.typicode.com/todos/1', 'https://jsonplaceholder.typicode.com/todos/2']
+               let promises = urls.map(url => fetch(url).then(response => response.json()))
+
+               let data = Promise.all(promises)
+               console.log(data)
+          }
+
+          getData()
+
+     </script>
+</html>
